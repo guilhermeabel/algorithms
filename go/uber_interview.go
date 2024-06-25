@@ -12,6 +12,7 @@ package main
 
 // My questions:
 // Are the passengers accounting for the driver? ie: should we allow a total of 5 passengers, or 4 passengers (because the driver is not a passenger)
+// Should we order the list of trips first
 
 func CanPerformAllTrips(unorderedTrips [][]int) bool {
 	trips := OrderByPickup(unorderedTrips)

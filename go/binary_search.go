@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func Run() {
+func RunBinarySearch() {
 
 	size := 1_000_000
 	haystack := make([]int, 0, size)

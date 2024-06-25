@@ -80,7 +80,7 @@ func GetMaxParallelism() int {
 	return numCPU
 }
 
-func main() {
+func RunEventLoop() {
 	arr := make([]int, 1000000)
 
 	sel := NewSimpleEventLoop(100)
